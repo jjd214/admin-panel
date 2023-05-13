@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    background-color: #FFF;
+    color: #FFF;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+header {
+    min-height: 100vh;
+}
+.h5 {
+    color: #FFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mybtn {
+    margin-top: 10px;
+    margin-left : 47%;
+}
+.dropdown {
+    padding-right: 120px;
+}
+.mytable {
+    padding-left: 35%;
+}

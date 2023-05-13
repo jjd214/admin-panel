@@ -1,0 +1,82 @@
+*{
+    font-family: 'Poppins';
+}
+body{
+    background: radial-gradient(circle, rgb(178, 220, 255) 0%, rgb(255, 192, 203) 100%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 350px;
+}
+header{
+    color: rgb(184, 71, 184);
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.form-box form .field{
+    display: flex;
+    flex-direction: column;
+}
+.form-box form .input input{
+    height: 30px;
+    width: 98%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.btn{
+    height: 35px;
+    width: 100px;
+    background: radial-gradient(circle, rgb(176, 70, 255) 0%, rgb(255, 105, 180) 100%);
+    border-radius: 5px;
+    color:#fff;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 15px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    opacity: 0.70;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.sign{
+    color: rgb(184, 71, 184);
+}
+
+.myalert {
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-bottom: -50px;
+}
+
+.myalert2 {
+    margin-top: 25px;
+    margin-left: 35%;
+    margin-bottom: -50px;
+}
